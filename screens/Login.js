@@ -56,7 +56,7 @@ const Login = ({loggedInState, loggedInStates,setLoggedInState})=>{
             <TouchableOpacity
                style={styles.sendButton}
               onPress={async ()=>{
-                console.log(phoneNumber+' Hello Waheed')
+                console.log(phoneNumber+' Button was pressed')
     
                 const sendTextResponse=await fetch(
                   'https://dev.stedi.me/twofactorlogin/'+phoneNumber,
@@ -113,12 +113,10 @@ const Login = ({loggedInState, loggedInStates,setLoggedInState})=>{
                   }
                 )
                 if(loginResponse.status==200){//200 means the password was valid
+    
                   const sessionToken = await loginResponse.text();
-                  const userNameResponse = await fetch('https://dev.stedi.me/validate/'+sessionToken);
-                  const userName = await userNameResponse.text();
                   console.log('sessionToken in Login Button',sessionToken);
                   await AsyncStorage.setItem('sessionToken',sessionToken);//local storage
-                  await AsyncStorage.setItem('userName',userName);
                 //   setLoggedInState(loggedInStates.LOGGED_IN);
                   navigation.replace('Navigation')
                 } else{

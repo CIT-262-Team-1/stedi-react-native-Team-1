@@ -1,8 +1,7 @@
-# To install expo and run the app the FIRST time follow these steps
-[https://byui-cit.atlassian.net/wiki/spaces/CyberSecurity/pages/18448385/Installing+EXPO+and+running+the+STEDI+Mobile+App]
+# To install and run
+`npm install`
 
-# After installing, to run the app run this command
-`expo start --tunnel`
+`npm start`
 
 To do an IOS Testflight build:
 
