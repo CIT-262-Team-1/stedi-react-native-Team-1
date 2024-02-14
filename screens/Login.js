@@ -100,7 +100,7 @@ const Login = ({loggedInState, loggedInStates,setLoggedInState})=>{
                 }
               }}
             >
-              <Text style={{color:'black'}}>Button 2</Text>      
+              <Text style={{color:'black'}}>Ardnt</Text>      
             </TouchableOpacity>
     
           </View>
