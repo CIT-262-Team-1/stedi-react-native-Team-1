@@ -1,6 +1,6 @@
 const sayHello=()=>{
     //console.log("hello");
-    return "Waheed";
+    return "hello";
 };
 
 export default sayHello;

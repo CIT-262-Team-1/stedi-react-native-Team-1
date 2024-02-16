@@ -1,18 +1,17 @@
 {
-  "name": "w06-scrumteamwork",
+  "name": "tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "week06 activity",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {
-    "mocha": "^10.3.0"
-  },
   "scripts": {
     "test": "mocha"
   },
   "type": "module",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.3.0"
+  }
 }
+
+
