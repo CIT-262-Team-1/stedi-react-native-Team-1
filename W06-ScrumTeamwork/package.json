@@ -1,0 +1,17 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "week06 activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.3.0"
+  }
+}
+
+

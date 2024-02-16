@@ -150,7 +150,11 @@ const Login = ({loggedInState, loggedInStates,setLoggedInState})=>{
                 }
               }}
             >
+<<<<<<< HEAD
               <Text style={{color:'green'}}>Button 4</Text>      
+=======
+              <Text style={{color:'black'}}>Ardnt</Text>      
+>>>>>>> 94e87832ef4b747db69f4d42dce553c7c5377834
             </TouchableOpacity>
     
           </View>
