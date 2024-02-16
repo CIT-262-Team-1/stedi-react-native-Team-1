@@ -1,7 +1,7 @@
-import sayHello from '../utils/utils.mjs';
+import sayHello from '../utils/utils.waheed.mjs';
 import assert from 'assert';
 
-it ('Test Hello World', ()=>{
+it ('Test Hello Waheed', ()=>{
     const hello= sayHello();
     assert.equal('Waheed', hello);
     
